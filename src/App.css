@@ -1,0 +1,13 @@
+body {
+  font-family: 'Calibre', 'Helvetica', 'Lucida grande', sans-serif;
+  padding: 20px 50px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+* {
+  box-sizing: border-box;
+}

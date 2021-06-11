@@ -1,0 +1,16 @@
+.header {
+  height: 45px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+
+  .dining-logo {
+    margin-left: -25px;
+  }
+
+  .cart-logo {
+    height: 75%;
+    display: flex;
+  }
+}
