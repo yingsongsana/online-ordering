@@ -1,0 +1,26 @@
+.menu-item {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: solid 1px gray;
+  padding: 20px;
+
+  .content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  img {
+    border: solid 1px black;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .menu-item {
+    align-items: center;
+  }
+
+  img {
+    width: 80px;
+    height: 80px;
+  }
+}
