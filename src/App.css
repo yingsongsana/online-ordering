@@ -2,6 +2,11 @@ body {
   font-family: 'Calibre', 'Helvetica', 'Lucida grande', sans-serif;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
 *,
 *::before,
 *::after {
