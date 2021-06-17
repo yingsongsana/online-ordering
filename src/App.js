@@ -1,20 +1,18 @@
 import React from 'react';
+import { Switch, Route } from 'react-router-dom';
 
-import Header from './components/header/header.component';
-import RestaurantInfo from './components/restaurant-info/restaurant-info.component';
-import MenuNavBar from './components/menu-nav-bar/menu-nav-bar.component';
-import MenuCategory from './components/menu-category/menu-category.component';
+import Homepage from './page/homepage/homepage.component';
+import AdminDashboard from './page/admin-dashboard/admin-dashboard.component';
 
 import './App.css';
 
 function App() {
   return (
     <div>
-      <Header />
-      <RestaurantInfo />
-      <MenuNavBar />
-      <MenuCategory />
-      <MenuCategory />
+      <Switch>
+        <Route exact path='/' component={Homepage}/>
+        <Route exact path='/admin-dashboard' component={AdminDashboard} />
+      </Switch>
     </div>   
   )
 }
