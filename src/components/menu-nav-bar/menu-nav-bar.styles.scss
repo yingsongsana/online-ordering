@@ -1,0 +1,14 @@
+.menu-nav-bar {
+  overflow: auto;
+  white-space: nowrap;
+
+  a {
+    display: inline-block;
+    padding: 14px;
+    text-align: center;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
